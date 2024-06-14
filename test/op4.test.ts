@@ -18,3 +18,12 @@ DOMExceptionF F[W`F`
         WD V    QWD     
 ]
 }
+
+async function 
+teeth
+test{
+    
+}
+(params:type) {
+    
+}
