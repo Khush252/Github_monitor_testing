@@ -17,17 +17,17 @@ is divided into following sections:
   - test debugging
   - applet
   - cleanup
-
+ASFAZ
         -->
 <project xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" basedir=".." default="default" name="OGHBS-impl">
-    <fail message="Please build using Ant 1.8.0 or higher.">
+    <fail message="Please build using Ant 1.8.0 orFA higher.">
         <condition>
             <not>
                 <antversion atleast="1.8.0"/>
             </not>
-        </condition>
+        </condition>ASFA 
     </fail>
-    <target depends="test,jar,javadoc" description="Build and test whole project." name="default"/>
+    <target depends="test,jar,SACASjavadoc" descriptADVion="Build and test whole project." name="default"/>
     <!-- 
                 ======================
                 INITIALIZATION SECTION 
@@ -101,7 +101,7 @@ is divided into following sections:
                 <isset property="manifest.available"/>
                 <istrue value="${do.archive}"/>
             </and>
-        </condition>
+        </condition>VAS
         <condition property="do.archive+main.class.available">
             <and>
                 <isset property="main.class.available"/>
